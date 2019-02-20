@@ -112,6 +112,23 @@ weather.find({search: 'San Francisco, CA', degreeType: 'F'}, function(err, resul
 
 - It uses `weather.service.msn.com`
 
+## Other languages
+
+To use other languages like french, spanish or portuguese:
+
+- For spanish:
+
+```javascript
+weather.find({search: 'San Francisco, CA', degreeType: 'F', lang:'es-mx'}, function(err, result) { ...
+```
+
+More information regarding lang supported (Microsoft Cultures).
+
+## Warning
+
+[MSN Weather service API RETIRED.](https://support.office.com/en-gb/article/msn-weather-service-api-has-been-retired-0a92ccc3-76a1-4de1-90b2-a1e08c228c0c).
+
+
 ## License
 
 Licensed under The MIT License (MIT)  
